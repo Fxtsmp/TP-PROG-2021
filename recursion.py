@@ -103,7 +103,17 @@ def are_equals(list_of_int_1, list_of_int_2):
     else:
         return list_of_int_1[0] == list_of_int_2[0] and are_equals(list_of_int_1[1:], list_of_int_2[1:])
 
+# Recursion -> ejercicio 4
+# put here the recursive approach
 
+def integer_division_by_sustract(dividend, divisor):
+    if divisor == 0:
+        return None
+    elif divisor > dividend:
+        return 0
+    else:
+        return integer_division_by_sustract(dividend-divisor, divisor) + 1
+    
 # for testing functions
 def main():
     clear_screen()
@@ -113,7 +123,7 @@ def main():
     int1 = [1]  # [1,2,7,4,5]
     int2 = [1, 2, 3, 4, 5]
     print(are_equals(int1, int2))
-
+    print(integer_division_by_sustract(int(input("dividend ")),int(input("divisor "))))
 
 if __name__ == "__main__":
     main()
