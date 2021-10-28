@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--basic structure of a xml-->
+<root>
+  <child>
+    <subchild>coontent</subchild>
+    <subchild>coontent</subchild>
+    <subchild>coontent</subchild>
+  </child>
+  <child>
+    <subchild>coontent</subchild>
+    <subchild>coontent</subchild>
+    <subchild>coontent</subchild>
+  </child>
+  <child>
+    <subchild>coontent</subchild>
+    <subchild>coontent</subchild>
+    <subchild>coontent</subchild>
+  </child>
+  
+</root>

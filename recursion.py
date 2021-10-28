@@ -25,10 +25,23 @@ def sustitution(integer_number):
 # for the last
 # Recursion -> ejercicio 2
 # put here the recursive approach
+'''
 
+'''
 
 def merge_all_list_into_one_list(list_of_list):
-    pass
+    """merge a list of list of elements into a only one list
+
+    Args:
+        list_of_list (list): list of list of any elements
+
+    Returns:
+        list: a list with all elements of the list contained inside the original list
+    """    
+    if len(list_of_list)==1:
+        return list_of_list[0]
+    else:
+        return list_of_list[0] + merge_all_list_into_one_list(list_of_list[1:])
 
 
 # Recursion -> ejercicio 3
