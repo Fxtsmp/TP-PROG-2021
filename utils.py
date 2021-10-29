@@ -1,7 +1,6 @@
 from os import system
 from platform import system as sy
-from random import randrange
-from copy import deepcopy
+
 
 '''
     this module contain functions that help another funtions
@@ -49,7 +48,7 @@ def input_with_default(message):
         int: a integer number
     """
     input_value = input(message)
-    if not input_value.isdigit() and input_value == "":
-        return -1
+    if isinstance(message,str):
+        return "-1"
     else:
         return int(input_value)

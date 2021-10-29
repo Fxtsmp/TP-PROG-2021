@@ -4,23 +4,20 @@ from utils import list_to_number, number_integer_to_list
 # Recursion -> ejercicio 1
 # put here the recursive approach
 
-def sustitution_parx_1_imparx_2(list_of_digits):
-    if list_of_digits == [] or not isinstance(list_of_digits, list):
-        return ["0"]
-    elif len(list_of_digits) == 1:
-        list_of_digits[0] = "1" if int(list_of_digits[0]) % 2 == 0 else "2"
+def code_number(number):
+    if number < 10 :
+        return "1" if number % 2 == 0 else "2"
     else:
-        list_of_digits[0] = "1" if int(list_of_digits[0]) % 2 == 0 else "2"
-        list_of_digits[1:] = sustitution_parx_1_imparx_2(list_of_digits[1:])
-    return list_of_digits
-
+        if number % 2 == 0:
+            return code_number(number // 10) + "1"
+        else:
+            return code_number(number // 10) + "2"
 
 def sustitution(integer_number):
-    return list_to_number(
-        sustitution_parx_1_imparx_2(
-            number_integer_to_list(integer_number)
-        )
-    )
+    if isinstance(integer_number,str):
+        return 0
+    else:
+        return int(code_number(integer_number))
 
 # for the last
 # Recursion -> ejercicio 2
