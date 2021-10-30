@@ -1,4 +1,5 @@
 import re
+from typing import Pattern
 
 
 def aircraft_id_code_validator(id_code):
@@ -15,3 +16,15 @@ def aircraft_id_code_validator(id_code):
     """    
     pattern = re.compile(r'''L[QV]-[A-Z]+\d*''')
     return re.match(pattern, id_code) != None
+
+def number_below_1900(number):
+    """validate if a number(str) isin str < 1900
+
+    Args:
+        number (str): a natural number 
+
+    Returns:
+        bool: true if the number is < 1900 in other case False
+    """    
+    pattern = re.compile(r'''\b[0|1]?[0-8]?\d?\d\b''')
+    return re.match(pattern, number) != None
