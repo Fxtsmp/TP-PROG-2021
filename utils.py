@@ -6,6 +6,7 @@ from platform import system as sy
     this module contain functions that help another funtions
 '''
 
+
 def clear_screen():
     """clear the terminal according on the operating system
     """
@@ -13,6 +14,7 @@ def clear_screen():
         system("cls")
     else:
         system("clear")
+
 
 def number_integer_to_list(number_integer):
     """convert a integer number into a list
@@ -48,7 +50,7 @@ def input_with_default(message):
         int: a integer number
     """
     input_value = input(message)
-    if isinstance(message,str):
+    if isinstance(message, str):
         return "-1"
     else:
         return int(input_value)

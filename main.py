@@ -1,6 +1,7 @@
-from utils import clear_screen, input_with_default
-from recursion import sustitution, are_equals, merge_all_list_into_one_list, integer_division_by_sustract
+from utils import *
+from recursion import *
 from regex import *
+from colections import *
 
 def main():
     clear_screen()
@@ -25,7 +26,7 @@ def main():
     print(f'''aircraft_id_code_validator("LV-XS123")\t=\t{"valida" if aircraft_id_code_validator("LV-XS123") else "invalida"}''')
     print(f'''aircraft_id_code_validator("LV-S123")\t=\t{"valida" if aircraft_id_code_validator("LV-S123") else "invalida"}''')
     print(f'''aircraft_id_code_validator("LV-XS")\t=\t{"valida" if aircraft_id_code_validator("LV-XS") else "invalida"}''')
-    
+    print(calculate_pi(100))
 
 
 if __name__ == "__main__":
