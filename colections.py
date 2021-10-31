@@ -11,29 +11,42 @@ Filter_function=print("the filter function receives as arguments a list and a fu
 #algorithm for number pi with n number of numbers...
 #point Nº2..
 
-def List(list,num):
-    if num==0:
-        return list
+from functools import reduce
+
+
+def generate_ns(n_esimo):
+    if n_esimo == 0:
+        return [0]
     else:
-        list.append(num)
-        num=num-1
-        return   List(list,num)
-
-num=int(input("enter a number: "))
-lista=[]
-new_list=List(lista,num)
-
-#map function..
-
-Map=list(map(lambda num: 4-((-1)**num)/(2*num)+1,new_list))
-
-print(Map)
-#function filter...
-
-Filtrado=list(filter(lambda numero: numero <= 3.14,Map))
-
-print(Filtrado)
+        return generate_ns(n_esimo - 1) + [n_esimo]
 
 
+def suscession_pi(n_esimo):
+    """calculate the terms of a suscession that aproxima a pi number
+
+    Args:
+        n_esimo (int): number that represent until that term we must calculate
+
+    Returns:
+        [list]: a list with n_esimo terms
+    """
+    return list(map(lambda n: (4 * ((-1) ** n)) / (2 * n + 1), generate_ns(n_esimo)))
+
+
+def calculate_pi(n_esimo):
+    """calculate the number pi by aproximation
+
+    Args:
+        n_esimo (int): a natural number >= 0
+
+    Returns:
+        float: a float number that aproximate the real value of pi
+    """
+    if n_esimo < 0:
+        return -1
+    elif n_esimo == 0:
+        return 4.0
+    else:
+        return reduce(lambda a, b: a + b, suscession_pi(n_esimo))
 
 
