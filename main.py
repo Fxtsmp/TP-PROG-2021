@@ -16,13 +16,16 @@ def main():
     print(are_equals(int1, int2))
     print(integer_division_by_sustract(
         int(input("dividend ")), int(input("divisor ")))) """
-    print(number_below_1900("1901"))
-    print(number_below_1900("1899"))
-    print(number_below_1900("1"))
-    print(number_below_1900("2000"))
-    print(aircraft_id_code_validator("LQ-AWQ"))
-    print(aircraft_id_code_validator("LV-123"))
-
+    print('''number_below_1900("1901")''',number_below_1900("1901"))
+    print('''number_below_1900("1899")''',number_below_1900("1899"))
+    print('''number_below_1900("1")''',number_below_1900("1"))
+    print('''number_below_1900("2000")''',number_below_1900("2000"))
+    print(f'''aircraft_id_code_validator("LQ-AWQ")\t=\t{"valida" if aircraft_id_code_validator("LQ-AWQ") else "invalida"}''')
+    print(f'''aircraft_id_code_validator("LV-123")\t=\t{"valida" if aircraft_id_code_validator("LV-123") else "invalida"}''')
+    print(f'''aircraft_id_code_validator("LV-XS123")\t=\t{"valida" if aircraft_id_code_validator("LV-XS123") else "invalida"}''')
+    print(f'''aircraft_id_code_validator("LV-S123")\t=\t{"valida" if aircraft_id_code_validator("LV-S123") else "invalida"}''')
+    print(f'''aircraft_id_code_validator("LV-XS")\t=\t{"valida" if aircraft_id_code_validator("LV-XS") else "invalida"}''')
+    
 
 
 if __name__ == "__main__":
