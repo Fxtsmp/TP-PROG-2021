@@ -1,16 +1,14 @@
 #colections exercise
+#explain map,reduce and filter functions...
+
+Map_function= print("the map function applies an N function to a sequence of elements and returns a new list with the modifications,receives as argument a function N and a list")
+
+Reduce_function=print("The reduce function allows us to reduce a list to a single iterable element, it receives a function N and a list as parameters.")
+
+Filter_function=print("the filter function receives as arguments a list and a function N and allows us to check if the elements of the list meet a certain condition.returns an iterable with the checked items.")
+
 
 #algorithm for number pi with n number of numbers...
-
-
-
-
-
-
-
-
-
-
 #point Nº2..
 
 def List(list,num):
