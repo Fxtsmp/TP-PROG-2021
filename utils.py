@@ -39,7 +39,7 @@ def list_to_number(list_of_digits):
     """
     return int("".join(list_of_digits))
 
-
+# deprecated for no useless XD
 def input_with_default(message):
     """a fork of normal input with a default value if introduce a empty value
 
