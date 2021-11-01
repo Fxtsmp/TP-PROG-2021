@@ -16,7 +16,7 @@ def aircraft_id_code_validator(id_code):
     """    
     
     """ re.compile(r'''L[QV]-[A-Z]+\d*''') """
-    pattern = re.compile(r'''(L[QV]{1}-[A-Z]{3}|L[QV]{1}-[XS]{1,2}\d*)''') 
+    pattern = re.compile(r'''(L[QV]{1}-[A-Z]{3}|L[QV]{1}-[XS]{1,2}\d{3})''') 
     return re.match(pattern, id_code) != None
 
 def number_below_1900(number):

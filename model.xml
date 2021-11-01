@@ -1,122 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <weather_station>
-    <station name="uno">
-        <latitude>10</latitude>
-        <longitude>10</longitude>
-        <number_of_sensors>2</number_of_sensors>
+    <station name="Bahia Blanca">
+        <latitude>-38.716142</latitude>
+        <longitude>-62.267003</longitude>
+        <number_of_sensors>3</number_of_sensors>
         <humidity type = "float" active = "True">
             <mesure>88</mesure>
             <unit>%</unit>
         </humidity>
-        <wind_speed type="float">
+        <wind_speed type="float" active = "True">
             <mesure>12.3</mesure>
             <unit>km/h</unit>
         </wind_speed>
-        <wind_direction type="float" active ="True">
+        <wind_direction type="float" active ="">
             <mesure>33</mesure>
-            <unit>°</unit>
+            <unit>°E</unit>
         </wind_direction>
-        <temperature type="float">
+        <temperature type="float" active="True">
             <mesure>33</mesure>
             <unit>°C</unit>
         </temperature>
-        <pressure type="float">
-            <mesure>1033</mesure>
-            <unit>hpa</unit>
-        </pressure>
-        <battery_voltage_list type="float">
-            <unit>mV</unit>
-            <List>10</List>
-            <List>12</List>
-            <List>10</List>
-            <List>12</List>
-            <List>10</List>
-            <List>12</List>
-            <List>10</List>
-            <List>12</List>
-            <List>10</List>
-            <List>12</List>
-            <List>10</List>
-            <List>12</List>
-            <List>10</List>
-            <List>12</List>
-            <List>10</List>
-            <List>12</List>
-            <List>10</List>
-            <List>12</List>
-            <List>10</List>
-            <List>12</List>
-        </battery_voltage_list>
-    </station>
-    <station name="dos">
-        <latitude>10</latitude>
-        <longitude>10</longitude>
-        <number_of_sensors>3</number_of_sensors>
-        <humidity>
-            <mesure>88</mesure>
-            <unit>%</unit>
-        </humidity>
-        <wind_speed type="float">
-            <mesure>12.3</mesure>
-            <unit>km/h</unit>
-        </wind_speed>
-        <wind_direction type="float">
-            <mesure>33</mesure>
-            <unit>°</unit>
-        </wind_direction>
-        <temperature type="float">
-            <mesure>33</mesure>
-            <unit>°C</unit>
-        </temperature>
-        <pressure type="float">
-            <mesure>1033</mesure>
-            <unit>hpa</unit>
-        </pressure>
-        <battery_voltage_list type="float">
-            <unit>mV</unit>
-            <List>10</List>
-            <List>12</List>
-            <List>10</List>
-            <List>12</List>
-            <List>10</List>
-            <List>12</List>
-            <List>10</List>
-            <List>12</List>
-            <List>10</List>
-            <List>12</List>
-            <List>10</List>
-            <List>12</List>
-            <List>10</List>
-            <List>12</List>
-            <List>10</List>
-            <List>12</List>
-            <List>10</List>
-            <List>12</List>
-            <List>10</List>
-            <List>12</List>
-        </battery_voltage_list>
-    </station>
-    <station name="tres">
-        <latitude>10</latitude>
-        <longitude>10</longitude>
-        <number_of_sensors>3</number_of_sensors>
-        <humidity>
-            <mesure>%</mesure>
-            <unit>88</unit>
-        </humidity>
-        <wind_speed type="float">
-            <mesure>12.3</mesure>
-            <unit>km/h</unit>
-        </wind_speed>
-        <wind_direction type="float">
-            <mesure>33</mesure>
-            <unit>°</unit>
-        </wind_direction>
-        <temperature type="float">
-            <mesure>33</mesure>
-            <unit>°C</unit>
-        </temperature>
-        <pressure type="float">
+        <pressure type="int" active="">
             <mesure>1033</mesure>
             <unit>hpa</unit>
         </pressure>
@@ -141,6 +45,100 @@
             <List>12</List>
             <List>10</List>
             <List>12</List>
+        </battery_voltage_list>
+    </station>
+    <station name="Gral. D. Cerri">
+        <latitude>-38.717924</latitude>
+        <longitude>-62.392763</longitude>
+        <number_of_sensors>4</number_of_sensors>
+        <humidity type = "float" active = "">
+            <mesure>88</mesure>
+            <unit>%</unit>
+        </humidity>
+        <wind_speed type="float" active = "True">
+            <mesure>22.3</mesure>
+            <unit>km/h</unit>
+        </wind_speed>
+        <wind_direction type="float" active ="True">
+            <mesure>20</mesure>
+            <unit>°S</unit>
+        </wind_direction>
+        <temperature type="float" active="True">
+            <mesure>15</mesure>
+            <unit>°C</unit>
+        </temperature>
+        <pressure type="int" active="True">
+            <mesure>1033</mesure>
+            <unit>hpa</unit>
+        </pressure>
+        <battery_voltage_list type="float" unit="mV">
+            <List>10</List>
+            <List>11</List>
+            <List>9</List>
+            <List>14</List>
+            <List>13</List>
+            <List>10</List>
+            <List>10</List>
+            <List>11</List>
+            <List>12</List>
+            <List>12</List>
+            <List>14</List>
+            <List>9</List>
+            <List>10</List>
+            <List>11</List>
+            <List>12</List>
+            <List>13</List>
+            <List>9</List>
+            <List>12</List>
+            <List>10</List>
+            <List>0</List>
+        </battery_voltage_list>
+    </station>
+    <station name="Profertil SA">
+        <latitude>38.785592</latitude>
+        <longitude>-62.283668</longitude>
+        <number_of_sensors>5</number_of_sensors>
+        <humidity type = "float" active = "True">
+            <mesure>88</mesure>
+            <unit>%</unit>
+        </humidity>
+        <wind_speed type="float" active = "True">
+            <mesure>22.3</mesure>
+            <unit>km/h</unit>
+        </wind_speed>
+        <wind_direction type="float" active ="True">
+            <mesure>20</mesure>
+            <unit>°N</unit>
+        </wind_direction>
+        <temperature type="float" active="True">
+            <mesure>15</mesure>
+            <unit>°C</unit>
+        </temperature>
+        <pressure type="int" active="True">
+            <mesure>1033</mesure>
+            <unit>hpa</unit>
+        </pressure>
+        <battery_voltage_list type="float" unit="mV">
+            <List>0</List>
+            <List>2</List>
+            <List>0</List>
+            <List>2</List>
+            <List>0</List>
+            <List>2</List>
+            <List>0</List>
+            <List>2</List>
+            <List>0</List>
+            <List>2</List>
+            <List>0</List>
+            <List>2</List>
+            <List>0</List>
+            <List>2</List>
+            <List>0</List>
+            <List>2</List>
+            <List>0</List>
+            <List>2</List>
+            <List>0</List>
+            <List>2</List>
         </battery_voltage_list>
     </station>
 </weather_station>
