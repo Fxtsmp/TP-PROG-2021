@@ -1,20 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--basic structure of a xml-->
-<root>
-  <child>
-    <subchild>coontent</subchild>
-    <subchild>coontent</subchild>
-    <subchild>coontent</subchild>
-  </child>
-  <child>
-    <subchild>coontent</subchild>
-    <subchild>coontent</subchild>
-    <subchild>coontent</subchild>
-  </child>
-  <child>
-    <subchild>coontent</subchild>
-    <subchild>coontent</subchild>
-    <subchild>coontent</subchild>
-  </child>
-  
-</root>
+<weather_station>
+    <station name="uno">
+        <latitude>10</latitude>
+        <longitude>10</longitude>
+        <number_of_sensors>2</number_of_sensors>
+        <humidity type = "float" active = "True">
+            <mesure>88</mesure>
+            <unit>%</unit>
+        </humidity>
+        <wind_speed type="float">
+            <mesure>12.3</mesure>
+            <unit>km/h</unit>
+        </wind_speed>
+        <wind_direction type="float" active ="True">
+            <mesure>33</mesure>
+            <unit>°</unit>
+        </wind_direction>
+        <temperature type="float">
+            <mesure>33</mesure>
+            <unit>°C</unit>
+        </temperature>
+        <pressure type="float">
+            <mesure>1033</mesure>
+            <unit>hpa</unit>
+        </pressure>
+        <battery_voltage_list type="float">
+            <unit>mV</unit>
+            <List>10</List>
+            <List>12</List>
+            <List>10</List>
+            <List>12</List>
+            <List>10</List>
+            <List>12</List>
+            <List>10</List>
+            <List>12</List>
+            <List>10</List>
+            <List>12</List>
+            <List>10</List>
+            <List>12</List>
+            <List>10</List>
+            <List>12</List>
+            <List>10</List>
+            <List>12</List>
+            <List>10</List>
+            <List>12</List>
+            <List>10</List>
+            <List>12</List>
+        </battery_voltage_list>
+    </station>
+    <station name="dos">
+        <latitude>10</latitude>
+        <longitude>10</longitude>
+        <number_of_sensors>3</number_of_sensors>
+        <humidity>
+            <mesure>88</mesure>
+            <unit>%</unit>
+        </humidity>
+        <wind_speed type="float">
+            <mesure>12.3</mesure>
+            <unit>km/h</unit>
+        </wind_speed>
+        <wind_direction type="float">
+            <mesure>33</mesure>
+            <unit>°</unit>
+        </wind_direction>
+        <temperature type="float">
+            <mesure>33</mesure>
+            <unit>°C</unit>
+        </temperature>
+        <pressure type="float">
+            <mesure>1033</mesure>
+            <unit>hpa</unit>
+        </pressure>
+        <battery_voltage_list type="float">
+            <unit>mV</unit>
+            <List>10</List>
+            <List>12</List>
+            <List>10</List>
+            <List>12</List>
+            <List>10</List>
+            <List>12</List>
+            <List>10</List>
+            <List>12</List>
+            <List>10</List>
+            <List>12</List>
+            <List>10</List>
+            <List>12</List>
+            <List>10</List>
+            <List>12</List>
+            <List>10</List>
+            <List>12</List>
+            <List>10</List>
+            <List>12</List>
+            <List>10</List>
+            <List>12</List>
+        </battery_voltage_list>
+    </station>
+    <station name="tres">
+        <latitude>10</latitude>
+        <longitude>10</longitude>
+        <number_of_sensors>3</number_of_sensors>
+        <humidity>
+            <mesure>%</mesure>
+            <unit>88</unit>
+        </humidity>
+        <wind_speed type="float">
+            <mesure>12.3</mesure>
+            <unit>km/h</unit>
+        </wind_speed>
+        <wind_direction type="float">
+            <mesure>33</mesure>
+            <unit>°</unit>
+        </wind_direction>
+        <temperature type="float">
+            <mesure>33</mesure>
+            <unit>°C</unit>
+        </temperature>
+        <pressure type="float">
+            <mesure>1033</mesure>
+            <unit>hpa</unit>
+        </pressure>
+        <battery_voltage_list type="float" unit="mV">
+            <List>10</List>
+            <List>12</List>
+            <List>10</List>
+            <List>12</List>
+            <List>10</List>
+            <List>12</List>
+            <List>10</List>
+            <List>12</List>
+            <List>10</List>
+            <List>12</List>
+            <List>10</List>
+            <List>12</List>
+            <List>10</List>
+            <List>12</List>
+            <List>10</List>
+            <List>12</List>
+            <List>10</List>
+            <List>12</List>
+            <List>10</List>
+            <List>12</List>
+        </battery_voltage_list>
+    </station>
+</weather_station>
