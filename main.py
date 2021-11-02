@@ -3,6 +3,8 @@ from recursion import *
 from regex import *
 from colections import *
 from exchange_data import *
+import tkinter
+from tkinter import *
 
 
 def main():
@@ -69,7 +71,6 @@ def main():
             "press enter to request new station information or [x] to e[x]it: ")
         if st == "":
             st = " "
-    # ------------------ showing th s station with the most low battery average
 
 
 if __name__ == "__main__":

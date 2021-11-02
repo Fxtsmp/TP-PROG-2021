@@ -20,7 +20,7 @@ def aircraft_id_code_validator(id_code):
     return re.match(pattern, id_code) != None
 
 def number_below_1900(number):
-    """validate if a number(str) isin str < 1900
+    """validate if a number(str) is str < 1900
 
     Args:
         number (str): a natural number 
