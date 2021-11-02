@@ -5,38 +5,38 @@
         "longitude": "-62.267003",
         "number_of_sensors": "3",
         "humidity": {
-            "@type": "float",
-            "@active": "True",
+            "type": "float",
+            "active": "True",
             "mesure": "88",
             "unit": "%"
         },
         "wind_speed": {
-            "@type": "float",
-            "@active": "True",
+            "type": "float",
+            "active": "True",
             "mesure": "12.3",
             "unit": "km/h"
         },
         "wind_direction": {
-            "@type": "float",
-            "@active": "",
+            "type": "float",
+            "active": "",
             "mesure": "33",
             "unit": "°E"
         },
         "temperature": {
-            "@type": "float",
-            "@active": "True",
+            "type": "float",
+            "active": "True",
             "mesure": "33",
             "unit": "°C"
         },
         "pressure": {
-            "@type": "int",
-            "@active": "",
+            "type": "int",
+            "active": "",
             "mesure": "1033",
             "unit": "hpa"
         },
         "battery_voltage_list": {
-            "@type": "float",
-            "@unit": "mV",
+            "type": "float",
+            "unit": "mV",
             "List": [
                 "10",
                 "12",
@@ -62,43 +62,43 @@
         }
     },
     {
-        "@name": "Gral. D. Cerri",
+        "name": "Gral. D. Cerri",
         "latitude": "-38.717924",
         "longitude": "-62.392763",
         "number_of_sensors": "4",
         "humidity": {
-            "@type": "float",
-            "@active": "",
+            "type": "float",
+            "active": "",
             "mesure": "88",
             "unit": "%"
         },
         "wind_speed": {
-            "@type": "float",
-            "@active": "True",
+            "type": "float",
+            "active": "True",
             "mesure": "22.3",
             "unit": "km/h"
         },
         "wind_direction": {
-            "@type": "float",
-            "@active": "True",
+            "type": "float",
+            "active": "True",
             "mesure": "20",
             "unit": "°S"
         },
         "temperature": {
-            "@type": "float",
-            "@active": "True",
+            "type": "float",
+            "active": "True",
             "mesure": "15",
             "unit": "°C"
         },
         "pressure": {
-            "@type": "int",
-            "@active": "True",
+            "type": "int",
+            "active": "True",
             "mesure": "1033",
             "unit": "hpa"
         },
         "battery_voltage_list": {
-            "@type": "float",
-            "@unit": "mV",
+            "type": "float",
+            "unit": "mV",
             "List": [
                 "10",
                 "11",
@@ -124,43 +124,43 @@
         }
     },
     {
-        "@name": "Profertil SA",
+        "name": "Profertil SA",
         "latitude": "38.785592",
         "longitude": "-62.283668",
         "number_of_sensors": "5",
         "humidity": {
-            "@type": "float",
-            "@active": "True",
+            "type": "float",
+            "active": "True",
             "mesure": "88",
             "unit": "%"
         },
         "wind_speed": {
-            "@type": "float",
-            "@active": "True",
+            "type": "float",
+            "active": "True",
             "mesure": "22.3",
             "unit": "km/h"
         },
         "wind_direction": {
-            "@type": "float",
-            "@active": "True",
+            "type": "float",
+            "active": "True",
             "mesure": "20",
             "unit": "°N"
         },
         "temperature": {
-            "@type": "float",
-            "@active": "True",
+            "type": "float",
+            "active": "True",
             "mesure": "15",
             "unit": "°C"
         },
         "pressure": {
-            "@type": "int",
-            "@active": "True",
+            "type": "int",
+            "active": "True",
             "mesure": "1033",
             "unit": "hpa"
         },
         "battery_voltage_list": {
-            "@type": "float",
-            "@unit": "mV",
+            "type": "float",
+            "unit": "mV",
             "List": [
                 "0",
                 "2",
